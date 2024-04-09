@@ -3,9 +3,8 @@
 .search {
   min-width: fit-content;
   max-width: 14rem;
-  flex-grow: 0.3;
 
-  & > #search-icon {
+  &>#search-icon {
     background-color: var(--lightgray);
     border-radius: 4px;
     height: 2rem;
@@ -14,11 +13,11 @@
     cursor: pointer;
     white-space: nowrap;
 
-    & > div {
+    &>div {
       flex-grow: 1;
     }
 
-    & > p {
+    &>p {
       display: inline;
       padding: 0 1rem;
     }
@@ -37,7 +36,7 @@
     }
   }
 
-  & > #search-container {
+  &>#search-container {
     position: fixed;
     contain: layout;
     z-index: 999;
@@ -53,7 +52,7 @@
       display: inline-block;
     }
 
-    & > #search-space {
+    &>#search-space {
       width: 65%;
       margin-top: 12vh;
       margin-left: auto;
@@ -63,7 +62,7 @@
         width: 90%;
       }
 
-      & > * {
+      &>* {
         width: 100%;
         border-radius: 7px;
         background: var(--light);
@@ -73,7 +72,7 @@
         margin-bottom: 2em;
       }
 
-      & > input {
+      &>input {
         box-sizing: border-box;
         padding: 0.5em 1em;
         font-family: var(--bodyFont);
@@ -86,7 +85,7 @@
         }
       }
 
-      & > #search-layout {
+      &>#search-layout {
         display: none;
         flex-direction: row;
         border: 1px solid var(--lightgray);
@@ -97,17 +96,17 @@
           display: flex;
         }
 
-        &[data-preview] > #results-container {
+        &[data-preview]>#results-container {
           flex: 0 0 min(30%, 450px);
         }
 
         @media all and (min-width: $tabletBreakpoint) {
           &[data-preview] {
-            & .result-card > p.preview {
+            & .result-card>p.preview {
               display: none;
             }
 
-            & > div {
+            &>div {
               &:first-child {
                 border-right: 1px solid var(--lightgray);
                 border-top-right-radius: unset;
@@ -122,17 +121,17 @@
           }
         }
 
-        & > div {
+        &>div {
           height: calc(75vh - 12vh);
           border-radius: 5px;
         }
 
         @media all and (max-width: $tabletBreakpoint) {
-          & > #preview-container {
+          &>#preview-container {
             display: none !important;
           }
 
-          &[data-preview] > #results-container {
+          &[data-preview]>#results-container {
             width: 100%;
             height: auto;
             flex: 0 0 100%;
@@ -145,7 +144,7 @@
           scroll-margin-top: 2rem;
         }
 
-        & > #preview-container {
+        &>#preview-container {
           display: block;
           overflow: hidden;
           font-family: inherit;
@@ -165,7 +164,7 @@
           }
         }
 
-        & > #results-container {
+        &>#results-container {
           overflow-y: auto;
 
           & .result-card {
@@ -194,16 +193,16 @@
               background: var(--lightgray);
             }
 
-            & > h3 {
+            &>h3 {
               margin: 0;
             }
 
-            & > ul.tags {
+            &>ul.tags {
               margin-top: 0.45rem;
               margin-bottom: 0;
             }
 
-            & > ul > li > p {
+            &>ul>li>p {
               border-radius: 8px;
               background-color: var(--highlight);
               padding: 0.2rem 0.4rem;
@@ -217,7 +216,7 @@
               }
             }
 
-            & > p {
+            &>p {
               margin-bottom: 0;
             }
           }
