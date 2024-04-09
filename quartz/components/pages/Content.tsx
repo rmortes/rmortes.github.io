@@ -5,7 +5,17 @@ const Content: QuartzComponent = ({ fileData, tree }: QuartzComponentProps) => {
   const content = htmlToJsx(fileData.filePath!, tree)
   const classes: string[] = fileData.frontmatter?.cssclasses ?? []
   const classString = ["popover-hint", ...classes].join(" ")
-  return <article class={classString}>{content}</article>
+  return <>
+    <article class={classString}>{content}</article>
+    <script src="https://utteranc.es/client.js"
+      repo="rmortes/rmortes.github.io"
+      issue-term="url"
+      label="utterance 💬"
+      theme="preferred-color-scheme"
+      crossorigin="anonymous"
+      async>
+    </script>
+  </>
 }
 
 export default (() => Content) satisfies QuartzComponentConstructor

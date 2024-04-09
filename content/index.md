@@ -26,11 +26,3 @@ Siempre he sido muy curioso, así que seguí indagando. "¿Como se puede clonar 
 
 A estas alturas te habrás dado cuenta de que no estoy intentando ir a ninguna parte con esto. Es la primera entrada en el "pseudo-blog" raro este, y la he puesto en el _index_ por defecto, pero se que eventualmente la cambiaré de aquí. En fin, en este blog voy a escribir, cuando me acuerde, principalmente de tecnología. No descarto más storytimes como este, o cualquier otra parida que simplemente me apetezca lanzar al vacío digital, pero.
 
-<script src="https://utteranc.es/client.js"
-        repo="rmortes/rmortes.github.io"
-        issue-term="url"
-        label="utterance 💬"
-        theme="preferred-color-scheme"
-        crossorigin="anonymous"
-        async>
-</script>
