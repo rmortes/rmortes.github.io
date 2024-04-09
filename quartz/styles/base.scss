@@ -149,6 +149,7 @@ a {
   &>#quartz-body {
     width: 100%;
     display: grid;
+    grid-template-columns: auto 1fr;
     grid-template-areas:
       "left center"
       ". right";
