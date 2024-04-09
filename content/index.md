@@ -1,5 +1,7 @@
 ---
 title: A disfrutar de mi blog
+tags:
+  - storytime
 ---
 ```
 Not very long ago
@@ -20,7 +22,7 @@ No recuerdo que fue lo primero que hice en Internet, pero tampoco creo que impor
 
 Si que recuerdo hacer un blog por primera vez. Bueno, mentira, _blogs_. Era ~~muy prolífico~~ ~~un caso rampante de TDAH~~ un desgraciao' y en cuanto miraba para otro lado se me olvidaba que el blog existía y me hacía otro con otra temática. 
 
-También recuerdo, y cuidao' que esto es muy específico, haber hecho clones de Habbo Hotel. Curiosa historia, pero sin exagerar se que es lo que me encauzó por el camino del desarrollador. Recuerdo ser joven, que me gustara el rollo de Habbo Hotel de "es un videojuego, pero es una red social", y estar increíblemente frustrado por que costara dinero real comprar muebles. Así que me puse a indagar, ¡y resultaba que había gente que había clonado la web! Eran exactamente iguales, con la pequeña diferencia de que las cosas no costaban dinero real. Igual te daban 1 muchillón de monedas al entrar, igual te daban algo de dinero todos los días, pero no había que gastar pasta. La de horas muertas que le eché a distintos clones de Habbo (¿Habbo Latino es una cosa que existió? ¿O estoy aluzinando?)
+También recuerdo, y cuidao' que esto es muy específico, haber hecho clones de Habbo Hotel. Curiosa historia, pero sin exagerar se que es lo que me encauzó por el camino del desarrollador. Recuerdo ser joven, que me gustara el rollo de Habbo Hotel de "es un videojuego, pero es una red social", y estar increíblemente frustrado por que costara dinero real comprar muebles. Así que me puse a indagar, ¡y resultaba que había gente que había clonado la web! Eran exactamente iguales, con la pequeña diferencia de que las cosas no costaban dinero real. Igual te daban 1 muchillón de monedas al entrar, igual te daban algo de dinero todos los días, pero no había que gastar pasta. La de horas muertas que le eché a distintos clones de Habbo (¿Habbo Latino es una cosa que existió? ¿O estoy alucinando?)
 
 Siempre he sido muy curioso, así que seguí indagando. "¿Como se puede clonar un juego así? ¿Como estará montado todo esto?". Y en mi búsqueda, me encontré con un Post en Taringa (lo dicho, increíblemente específico) que detallaba como montar tu propio clon de Habbo Hotel. Había que instalarse el mitiquísimo _xampp_ para servir la web y tener una base de datos. Recuerdo la de semanas que le eché intentando acceder al _localhost_, medio aprendiendo a usar _phpmyadmin_, intentando instalar y configurar _Hamachi_ para jugar con un colega... Sin lugar a dudas, fue mi primer acercamiento al rollo del desarrollo, y se conoce que me gustó, porque sigo calentándome la cabeza para montar cosas que no son necesarias simple y llanamente porque me apetece.
 
