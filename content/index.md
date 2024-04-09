@@ -14,4 +14,4 @@ No recuerdo la primera vez que usé un ordenador. Me han gustado los videojuegos
 
 No, los discos tienen que andar por aquí, pero no los encuentro. Aunque si que me ha venido el nombre, "aprendilandia". Dioses, _literalmente quemé_ esos `CDs` de joven. Sin exagerar, aprendí a leer antes de lo que me tocaba porque quería jugar por mi mismo, sin tener que depender de ningún adulto que me leyera los textos o las instrucciones.
 
-...y luego, llegó Internet. Primero con un módem de, ¿que? ¿128k?
+...y luego, llegó Internet. Primero con un módem de, ¿que? ~~¿128k?~~ Me lo he inventado muy fuerte. No se donde estará el cacharro, pero supongo que sería uno de 56k, de los típicos. Era muy, muy pequeño cuando lo tuvimos, pero recuerdo el ruido que hacía, sobre todo en el teléfono fijo. Recuerdo el coñazo que le dimos a la compañía telefónica hasta que nos mandaron "filtros" para que no sonara tan fuerte el modem por la línea.
