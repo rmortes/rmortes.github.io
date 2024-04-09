@@ -4,6 +4,11 @@
   min-width: fit-content;
   max-width: 14rem;
 
+
+  @media all and (max-width: $fullPageWidth) {
+    flex: 1;
+  }
+
   &>#search-icon {
     background-color: var(--lightgray);
     border-radius: 4px;

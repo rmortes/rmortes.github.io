@@ -162,6 +162,8 @@ a {
         "left"
         "center"
         "right";
+      grid-template-columns: 1fr;
+      margin-top: 0;
     }
 
     & .sidebar {
@@ -189,6 +191,7 @@ a {
       @media all and (max-width: $fullPageWidth) {
         gap: 0;
         align-items: center;
+        justify-self: stretch;
       }
     }
 
