@@ -11,9 +11,9 @@ Como parte del tooling que estoy testeando para esta campaña encontré una [pla
 
 Voy a hacer un pequeño servicio que actualice de forma bidireccional los datos de [DmDashboard](https://dmdashboard.nl/) y [Dicecloud](https://dicecloud.com/) (plataforma de gestión de hojas de personajes que estoy probando). En plan es tener un archivo en mi sistema que con un comando se ponga a escuchar actualizaciones de ambos servicios y los vaya cambiando.
 
-```mermaid
-
-```
+| Caso 1                                                                                                                                                    | Caso 2 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| ```mermaid<br>flowchart TB<br><br>A[Dicecloud] -->\|La vida de un PJ cambia\| B(Middle man)<br><br>B -->\|Los cambios se reflejan\| C[DmDashboard]<br>``` |        |
 
 # ¿Cómo?
 
