@@ -29,3 +29,28 @@ Voy a hacer un pequeño servicio que actualice de forma bidireccional los datos 
 
 # ¿Cómo?
 
+Pues malamente. Ninguno de los dos servicios me dan APIs con las que sea fácil interactuar. Por una parte tenemos Dicecloud, que tiene una [página de documentación](https://dicecloud.com/docs) que a primera vista parece decente. De hecho, la existencia de esta página es lo que empezó este proyecto en primer lugar. Sin embargo, tras investigar durante 13 segundos extra la [página de la documentación de la API](https://dicecloud.com/docs/api), me encuentro con el primer problema: ¡Es de solo lectura!
+
+Esto es una jodienda, porque de los dos casos que he definido me acabo de quitar el 50%. Nada, esto no me sirve. Abro las devtools y me dispongo a destripar la página. Actualizo la página con el personaje de pruebas que tengo. Le quito 1 de vida. ¿No hay peticiones nuevas? Hmmm... Huele a websockets. Efectivamente, subo un poco, y ahí está, un websocket abierto. A ver que tiene...
+
+```json
+{
+  "msg": "method",
+  "id": "2",
+  "method": "creatureProperties.damage",
+  "params": [
+    {
+      "_id": "WNb82kSNrNEKi47ZJ",
+      "operation": "increment",
+      "value": 1
+    }
+  ]
+}
+```
+
+Huh... Este protocolo no me suena. No me jodas que es
+## RPC
+
+Full disclaimer: No he trabajado con RPC en mi vida. Lo conozco de oídas, pero nunca he hecho nada con el, así que no tengo ni idea de por donde empezar. Sin embargo, ahora el proyecto me ilusiona de una forma especial. Ya no es una herramienta más, ahora es *una oportunidad para aprender algo nuevo*. Y saben los Dioses que me gusta mucho aprender algo nuevo.
+
+⚠️ WIP ⚠️
