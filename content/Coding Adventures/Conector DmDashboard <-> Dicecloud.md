@@ -54,3 +54,9 @@ Huh... Este protocolo no me suena. No me jodas que es
 Full disclaimer: No he trabajado con RPC en mi vida. Lo conozco de oídas, pero nunca he hecho nada con el, así que no tengo ni idea de por donde empezar. Sin embargo, ahora el proyecto me ilusiona de una forma especial. Ya no es una herramienta más, ahora es *una oportunidad para aprender algo nuevo*. Y saben los Dioses que me gusta mucho aprender algo nuevo.
 
 ⚠️ WIP ⚠️
+
+TODO:
+- [ ] Investigar [meteor.js](https://guide.meteor.com/methods) que parece que el RPC origina de ahí y documentar como lo he averiguado
+- [ ] Investigar como funciona la autenticación contra RPC y si se puede solicitar introspección de alguna forma
+- [ ] Investigar la [API GraphQL](https://dmdashboard.nl/api/graphql) de DmDashboard y documentar [de donde la he sacado](https://docs.directus.io/getting-started/introduction.html)
+- [ ] Arreglar el display del plugin de columnas
